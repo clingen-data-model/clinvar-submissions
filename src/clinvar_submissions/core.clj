@@ -54,17 +54,12 @@
 
 (defonce rocksdb (db/init! ))
 
-(defn add-to-rocks
-  "add record to rocksdb"
-  [v]
-  (let [record (json/parse-string v true)
-        id ()]))
 
 (defn topology [in-topic out-topic]
   (let [builder (j/streams-builder)]
     (-> (j/kstream builder in-topic)
         ;; Stash data in RocksDB
-        (j/transform-values processor-fn)
+        ;;(j/transform-values processor-fn)
         (j/filter select-clinical-assertion)
         ;; Xform clinical assertion using stored data
         (j/to out-topic))
