@@ -6,6 +6,9 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.rocksdb/rocksdbjni "6.8.1"]
                  [fundingcircle/jackdaw "0.7.5"]
+                 [org.apache.kafka/kafka-clients "2.3.1"]
+                 [org.apache.kafka/kafka-streams "2.3.1"]
+                 [org.apache.kafka/kafka-streams-test-utils "2.3.1"]
                  [cheshire "5.10.0"]
                  [com.taoensso/timbre "4.10.0"]]
   :main ^:skip-aot clinvar-submissions.core
