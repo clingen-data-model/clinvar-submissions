@@ -1,0 +1,34 @@
+{
+  "time": "2019-04-03",
+  "type": "create",
+  "content": {
+    "variation_id": "283622",
+    "entity_type": "clinical_assertion",
+    "variation_archive_id": "VCV000283622",
+    "submitter_id": "500060",
+    "date_last_updated": "2019-03-31",
+    "interpretation_comments": [],
+    "interpretation_description": "Pathogenic",
+    "trait_set_id": "6475",
+    "internal_id": "649349",
+    "content": "{\"ClinVarSubmissionID\":{\"@localKeyIsSubmitted\":\"1\"},\"AttributeSet\":{\"Attribute\":{\"@Type\":\"AssertionMethod\",\"$\":\"EGL_Classification_Definitions_2015\"},\"Citation\":{\"URL\":{\"$\":\"https://submit.ncbi.nlm.nih.gov/ft/byid/dn5yhybg/egl_classification_definitions_2015.pdf\"}}},\"Citation\":{\"URL\":{\"$\":\"http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=FKTN\"}}}",
+    "submitted_assembly": "GRCh37",
+    "submission_id": "500060.2018-09-19",
+    "local_key": "35207_000000",
+    "clinical_assertion_observation_ids": [
+      "SCV000335826.0"
+    ],
+    "assertion_type": "variation to disease",
+    "rcv_accession_id": "RCV000376913",
+    "clinical_assertion_trait_set_id": "SCV000335826",
+    "id": "SCV000335826",
+    "submission_names": [
+      "SUB4534263"
+    ],
+    "record_status": "current",
+    "date_created": "2016-11-29",
+    "review_status": "criteria provided, single submitter",
+    "interpretation_date_last_evaluated": "2015-10-08",
+    "version": "4"
+  }
+}
